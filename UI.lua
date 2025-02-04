@@ -14,7 +14,7 @@ function UI_Library:CreateWindow(title)
 
     -- Properties:
     Core.Name = "Core"
-    Core.Parent = game:GetService("CoreGui")
+    Core.Parent = game.CoreGui
     Core.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
     Core.Position = UDim2.new(0.3, 0, 0.3, 0)
     Core.Size = UDim2.new(0.2, 0, 0.4, 0)
